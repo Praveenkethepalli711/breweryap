@@ -25,7 +25,7 @@ SECRET_KEY = '=ksvkre)$xx0xvv5azdex786kmt4!#rt!wen^0t*%hinh&5-#3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost', '.vercel.app']
 
 # Application definition
 
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'BRS.wsgi.application'
+WSGI_APPLICATION = 'BRS.wsgi.app'
 
 
 # Database
